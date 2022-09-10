@@ -7,17 +7,17 @@ import static homework.Task3.fuzzySearch;
 
 public class Task3Tests {
     @Test
-    public void testTrue() {
+    public void testTrue1() {
         boolean actual = fuzzySearch("car", "ca6$$#_rtwheel");
 
         Assert.assertTrue(actual);
     }
 
     @Test
-    public void testFalse() {
+    public void testTrue2() {
         boolean actual = fuzzySearch("cwhf", "oaipjcaoisjdwklhcvbf");
 
-        Assert.assertFalse(actual);
+        Assert.assertTrue(actual);
     }
 
     @Test
