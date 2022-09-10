@@ -21,6 +21,13 @@ public class Task3Tests {
     }
 
     @Test
+    public void testFalse() {
+        boolean actual = fuzzySearch("lw", "cartwheel");
+
+        Assert.assertFalse(actual);
+    }
+
+    @Test
     public void testNullPattern() {
         boolean actual = fuzzySearch(null, "oaipjcaoisjdwklhcvbf");
 

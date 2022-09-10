@@ -8,7 +8,7 @@ package homework;
 public class Task3 {
     public static boolean fuzzySearch(String pattern, String target) {
         if (pattern == null || target == null) {
-            System.out.println("String must not be null!");
+            System.out.println("Строка не может быть null!");
             return false;
         }
 
